@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpeg') no-repeat center center fixed;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    color: rgb(196, 176, 176); 
+}
+
+header {
+    background-color: rgb(138, 29, 144);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    padding-bottom:0px;
+}
+Footer{
+    background-color: rgb(11, 1, 1);
+    color: aliceblue;
+    text-align: center;
+}
+h2{
+    text-align: start;
+}
+.hh{
+    text-align:center;
+    color: rgb(0, 4, 8);
+}
+li{
+    text-align: start;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.250);
+}
+
+p {
+    color:white;
+    font-family: 'Franklin Gothic Medium', cursive;
+    margin-top: 10px;
+    font-size: 35px;
+}

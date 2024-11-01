@@ -1,0 +1,63 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding-top: 5px;
+    background-color: #938b8b;
+    color: #333;
+    background: url('https://png.pngtree.com/background/20210717/original/pngtree-play-travel-travel-background-picture-image_1435891.jpg') no-repeat center center fixed;
+    background-size: cover;
+    place-items: center;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally centers the container */
+    align-items: center;
+}
+
+header {
+    background-color: rgba(65, 22, 83, 0.7);
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+/*.form-group {
+    margin: 10px 0;
+}*/
+
+input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.container
+{
+    border: 2px solid rgb(15, 14, 14);
+    backdrop-filter: blur(10px);
+    height: 250px;
+    width: 350px;
+    vertical-align:middle;
+}
+h1{
+    font-size:60px;
+    color:black;
+}
+label{
+    color:black;
+}
